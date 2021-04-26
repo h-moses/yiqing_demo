@@ -1,15 +1,17 @@
 <template>
   <div id="app">
+    <!--疫情图表-->
     <PrevalenceMap/>
   </div>
 </template>
 
 <script>
-import PrevalenceMap from "./components/PrevalenceMap";
-export default {
-  name: 'App',
-  components: {PrevalenceMap},
-}
+  // 引入图表组件
+  import PrevalenceMap from "./components/PrevalenceMap";
+  export default {
+    name: 'App',
+    components: {PrevalenceMap},
+  }
 </script>
 
 <style>
