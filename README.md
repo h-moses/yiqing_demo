@@ -1,8 +1,11 @@
-# yiqing_demo
+# 全国疫情地图
 
-## Project setup
+## dependencies
 ```
-npm install
+axios@0.21.1
+echarts@4.9.0
+less@4.1.1
+less-loader@5.0.0
 ```
 
 ### Compiles and hot-reloads for development
